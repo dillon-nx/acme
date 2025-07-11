@@ -12,8 +12,8 @@
     ],
     "sharedGlobals": ["{workspaceRoot}/.github/workflows/ci.yml"]
   },
-  "nxCloudUrl": "https://staging.nx.app/",
-  "nxCloudId": "687006f0b1d5176d64abe9c7",
+  "nxCloudUrl": "https://snapshot.nx.app",
+  "nxCloudId": "68713b713d78f1ba0cb4efe7",
   "targetDefaults": {
     "@angular/build:application": {
       "cache": true,
@@ -29,10 +29,7 @@
         "{workspaceRoot}/eslint.config.mjs"
       ]
     },
-    "@nx/vite:test": {
-      "cache": true,
-      "inputs": ["default", "^production"]
-    }
+    "@nx/vite:test": { "cache": true, "inputs": ["default", "^production"] }
   },
   "generators": {
     "@nx/angular:application": {
